@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E3EF461C75B0540077078F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E3EF451C75B0540077078F /* main.m */; };
+		09E3EF491C75B0540077078F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E3EF481C75B0540077078F /* AppDelegate.m */; };
+		09E3EF4C1C75B0540077078F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E3EF4B1C75B0540077078F /* ViewController.m */; };
+		09E3EF4F1C75B0540077078F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E3EF4D1C75B0540077078F /* Main.storyboard */; };
+		09E3EF511C75B0540077078F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E3EF501C75B0540077078F /* Assets.xcassets */; };
+		09E3EF541C75B0540077078F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E3EF521C75B0540077078F /* LaunchScreen.storyboard */; };
+		09E3EF5F1C75B0550077078F /* SJUIAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E3EF5E1C75B0550077078F /* SJUIAlertControllerTests.m */; };
+		09E3EF6A1C75B0550077078F /* SJUIAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E3EF691C75B0550077078F /* SJUIAlertControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09E3EF5B1C75B0550077078F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09E3EF391C75B0540077078F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09E3EF401C75B0540077078F;
+			remoteInfo = SJUIAlertController;
+		};
+		09E3EF661C75B0550077078F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09E3EF391C75B0540077078F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09E3EF401C75B0540077078F;
+			remoteInfo = SJUIAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E3EF411C75B0540077078F /* SJUIAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJUIAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E3EF451C75B0540077078F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09E3EF471C75B0540077078F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09E3EF481C75B0540077078F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09E3EF4A1C75B0540077078F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09E3EF4B1C75B0540077078F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09E3EF4E1C75B0540077078F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09E3EF501C75B0540077078F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09E3EF531C75B0540077078F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09E3EF551C75B0540077078F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E3EF5A1C75B0550077078F /* SJUIAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJUIAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E3EF5E1C75B0550077078F /* SJUIAlertControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJUIAlertControllerTests.m; sourceTree = "<group>"; };
+		09E3EF601C75B0550077078F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E3EF651C75B0550077078F /* SJUIAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJUIAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E3EF691C75B0550077078F /* SJUIAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJUIAlertControllerUITests.m; sourceTree = "<group>"; };
+		09E3EF6B1C75B0550077078F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E3EF3E1C75B0540077078F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E3EF571C75B0550077078F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E3EF621C75B0550077078F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E3EF381C75B0540077078F = {
+			isa = PBXGroup;
+			children = (
+				09E3EF431C75B0540077078F /* SJUIAlertController */,
+				09E3EF5D1C75B0550077078F /* SJUIAlertControllerTests */,
+				09E3EF681C75B0550077078F /* SJUIAlertControllerUITests */,
+				09E3EF421C75B0540077078F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09E3EF421C75B0540077078F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09E3EF411C75B0540077078F /* SJUIAlertController.app */,
+				09E3EF5A1C75B0550077078F /* SJUIAlertControllerTests.xctest */,
+				09E3EF651C75B0550077078F /* SJUIAlertControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09E3EF431C75B0540077078F /* SJUIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				09E3EF471C75B0540077078F /* AppDelegate.h */,
+				09E3EF481C75B0540077078F /* AppDelegate.m */,
+				09E3EF4A1C75B0540077078F /* ViewController.h */,
+				09E3EF4B1C75B0540077078F /* ViewController.m */,
+				09E3EF4D1C75B0540077078F /* Main.storyboard */,
+				09E3EF501C75B0540077078F /* Assets.xcassets */,
+				09E3EF521C75B0540077078F /* LaunchScreen.storyboard */,
+				09E3EF551C75B0540077078F /* Info.plist */,
+				09E3EF441C75B0540077078F /* Supporting Files */,
+			);
+			path = SJUIAlertController;
+			sourceTree = "<group>";
+		};
+		09E3EF441C75B0540077078F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09E3EF451C75B0540077078F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09E3EF5D1C75B0550077078F /* SJUIAlertControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				09E3EF5E1C75B0550077078F /* SJUIAlertControllerTests.m */,
+				09E3EF601C75B0550077078F /* Info.plist */,
+			);
+			path = SJUIAlertControllerTests;
+			sourceTree = "<group>";
+		};
+		09E3EF681C75B0550077078F /* SJUIAlertControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09E3EF691C75B0550077078F /* SJUIAlertControllerUITests.m */,
+				09E3EF6B1C75B0550077078F /* Info.plist */,
+			);
+			path = SJUIAlertControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09E3EF401C75B0540077078F /* SJUIAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E3EF6E1C75B0550077078F /* Build configuration list for PBXNativeTarget "SJUIAlertController" */;
+			buildPhases = (
+				09E3EF3D1C75B0540077078F /* Sources */,
+				09E3EF3E1C75B0540077078F /* Frameworks */,
+				09E3EF3F1C75B0540077078F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJUIAlertController;
+			productName = SJUIAlertController;
+			productReference = 09E3EF411C75B0540077078F /* SJUIAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09E3EF591C75B0550077078F /* SJUIAlertControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E3EF711C75B0550077078F /* Build configuration list for PBXNativeTarget "SJUIAlertControllerTests" */;
+			buildPhases = (
+				09E3EF561C75B0550077078F /* Sources */,
+				09E3EF571C75B0550077078F /* Frameworks */,
+				09E3EF581C75B0550077078F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09E3EF5C1C75B0550077078F /* PBXTargetDependency */,
+			);
+			name = SJUIAlertControllerTests;
+			productName = SJUIAlertControllerTests;
+			productReference = 09E3EF5A1C75B0550077078F /* SJUIAlertControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09E3EF641C75B0550077078F /* SJUIAlertControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E3EF741C75B0550077078F /* Build configuration list for PBXNativeTarget "SJUIAlertControllerUITests" */;
+			buildPhases = (
+				09E3EF611C75B0550077078F /* Sources */,
+				09E3EF621C75B0550077078F /* Frameworks */,
+				09E3EF631C75B0550077078F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09E3EF671C75B0550077078F /* PBXTargetDependency */,
+			);
+			name = SJUIAlertControllerUITests;
+			productName = SJUIAlertControllerUITests;
+			productReference = 09E3EF651C75B0550077078F /* SJUIAlertControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09E3EF391C75B0540077078F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SPIREJ;
+				TargetAttributes = {
+					09E3EF401C75B0540077078F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					09E3EF591C75B0550077078F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 09E3EF401C75B0540077078F;
+					};
+					09E3EF641C75B0550077078F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 09E3EF401C75B0540077078F;
+					};
+				};
+			};
+			buildConfigurationList = 09E3EF3C1C75B0540077078F /* Build configuration list for PBXProject "SJUIAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09E3EF381C75B0540077078F;
+			productRefGroup = 09E3EF421C75B0540077078F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09E3EF401C75B0540077078F /* SJUIAlertController */,
+				09E3EF591C75B0550077078F /* SJUIAlertControllerTests */,
+				09E3EF641C75B0550077078F /* SJUIAlertControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09E3EF3F1C75B0540077078F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E3EF541C75B0540077078F /* LaunchScreen.storyboard in Resources */,
+				09E3EF511C75B0540077078F /* Assets.xcassets in Resources */,
+				09E3EF4F1C75B0540077078F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E3EF581C75B0550077078F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E3EF631C75B0550077078F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E3EF3D1C75B0540077078F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E3EF4C1C75B0540077078F /* ViewController.m in Sources */,
+				09E3EF491C75B0540077078F /* AppDelegate.m in Sources */,
+				09E3EF461C75B0540077078F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E3EF561C75B0550077078F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E3EF5F1C75B0550077078F /* SJUIAlertControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E3EF611C75B0550077078F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E3EF6A1C75B0550077078F /* SJUIAlertControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09E3EF5C1C75B0550077078F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09E3EF401C75B0540077078F /* SJUIAlertController */;
+			targetProxy = 09E3EF5B1C75B0550077078F /* PBXContainerItemProxy */;
+		};
+		09E3EF671C75B0550077078F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09E3EF401C75B0540077078F /* SJUIAlertController */;
+			targetProxy = 09E3EF661C75B0550077078F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09E3EF4D1C75B0540077078F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E3EF4E1C75B0540077078F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09E3EF521C75B0540077078F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E3EF531C75B0540077078F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09E3EF6C1C75B0550077078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09E3EF6D1C75B0550077078F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09E3EF6F1C75B0550077078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SJUIAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJUIAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09E3EF701C75B0550077078F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SJUIAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJUIAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09E3EF721C75B0550077078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SJUIAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJUIAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJUIAlertController.app/SJUIAlertController";
+			};
+			name = Debug;
+		};
+		09E3EF731C75B0550077078F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SJUIAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJUIAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJUIAlertController.app/SJUIAlertController";
+			};
+			name = Release;
+		};
+		09E3EF751C75B0550077078F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SJUIAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJUIAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SJUIAlertController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		09E3EF761C75B0550077078F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SJUIAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJUIAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SJUIAlertController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E3EF3C1C75B0540077078F /* Build configuration list for PBXProject "SJUIAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E3EF6C1C75B0550077078F /* Debug */,
+				09E3EF6D1C75B0550077078F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E3EF6E1C75B0550077078F /* Build configuration list for PBXNativeTarget "SJUIAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E3EF6F1C75B0550077078F /* Debug */,
+				09E3EF701C75B0550077078F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09E3EF711C75B0550077078F /* Build configuration list for PBXNativeTarget "SJUIAlertControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E3EF721C75B0550077078F /* Debug */,
+				09E3EF731C75B0550077078F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09E3EF741C75B0550077078F /* Build configuration list for PBXNativeTarget "SJUIAlertControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E3EF751C75B0550077078F /* Debug */,
+				09E3EF761C75B0550077078F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09E3EF391C75B0540077078F /* Project object */;
+}
